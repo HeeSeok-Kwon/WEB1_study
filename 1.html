@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+  <title>Block Chain</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1><a href="index.html">Block Chain</a></h1>
+<div id="grid">
+  <ol>
+    <li><a href="1.html">Bitcoin</a></li>
+    <li><a href="2.html">Ethereum</a></li>
+    <li><a href="3.html">hyperledger</a></li>
+    <li><a href="idea.html">BC Idea</a></li>
+  </ol>
+
+  <div id="article">
+      <h2>Bitcoin</h2>
+      <p>
+        <h4>Ubuntu 20.04 Bitcoin Core install Process</h4>
+        <ul>
+          <li>mkdir src</li>
+          <li>cd src</li>
+          <li>git clone http://github.com/bitcoin/bitcoin.git</li>
+          <li>sudo apt-get update</li>
+          <li>sudo apt-get install build-essential automake pkg-config libevent-dev bsdmainutils</li>
+          <li>sudo apt-get install libtool autotools-dev autoconf</li>
+          <li>sudo apt-get install libssl-dev</li>
+          <li>sudo apt-get install libboost-all-dev</li>
+          <li>sudo add-apt-repository ppa:bitcoin/bitcon</li>
+          <li>sudo apt-get update</li>
+          <li>sudo apt-get upgrade</li>
+          <li>wget https://bitcoin.org/bin/bitcoin-core-0.20.0/bitcoin-0.20.0-x86_64-linux-gnu.tar.gz</li>
+          <li>tar -xvf bitcoin-0.20.0-x86_64-linux-gnu.tar.gz</li>
+          <li>sudo add-apt-repository ppa:luke-jr/bitcoincore</li>
+          <li>apt-get install bitcoin-qt</li>
+          <li>sudo apt-get install libdb4.8-dev</li>
+          <li>sudo apt-get install libdb4.8++-dev</li>
+          <li>sudo apt-get install libminiupnpc-dev</li>
+          <li>sudo apt-get install libqrencode-dev</li>
+          <li>sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler</li>
+          <li>cd bitcoin</li>
+          <li>./autogen.sh</li>
+          <li>./configure</li>
+          <li>make</li>
+          <li>sudo make install</li>
+        </ul>
+      </p>
+    </div>
+</div>
+</body>
+</html>
